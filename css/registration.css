@@ -21,11 +21,9 @@
     border-radius: 20px;
 }
 
-.form-container h1, label, form {
+.form-container, #password-strength, #password-compare, h1, label, form {
     background-color: blanchedalmond;
 }
-
-
 
 .form-input {
     background-color: white;
