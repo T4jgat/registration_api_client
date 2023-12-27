@@ -1,0 +1,37 @@
+* {
+    font-family: Consolas, serif;
+    background-color: antiquewhite;
+}
+
+.form-container {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column; /* Arranges elements vertically */
+    justify-content: center;
+    align-items: center;
+    /* Additional styling */
+    width: 20%;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.form-container h1, label, form {
+    background-color: blanchedalmond;
+}
+
+
+
+.form-input {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form-submit {
+    border-radius: 5px;
+}

@@ -1,0 +1,24 @@
+* {
+    font-family: Consolas, serif;
+    background-color: blanchedalmond;
+}
+
+.kanye-container {
+    display: flex;
+    flex-direction: column; /* Arranges elements vertically */
+    justify-content: center;
+    align-items: center;
+    /* Additional styling */
+    width: 20%;
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.kanye-container img {
+    width: 40%;
+    height: 40%;
+}
